@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">LightningDB</string>
+    <string name="hint_username">Enter UserName</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="hint_firstname">Enter FirstName</string>
+    <string name="hint_lastname">Enter Last Name</string>
+    <string name="hint_confirmpassword">Enter Confirm Password</string>
+    <string name="hint_salary">Enter Salary</string>
+    <string name="empty_usernamae">Please enter UserName</string>
+    <string name="empty_password">Please enter Password</string>
+    <string name="empty_firstname">Please enter FirstName</string>
+    <string name="empty_lastname">Please enter LastName</string>
+    <string name="empty_confirmpassword">Please enter Confirm Password</string>
+    <string name="password_mismatch">Enter valid Password</string>
+    <string name="empty_salary">Please enter Salary</string>
+
+    <string-array name="dept">
+        <item>Android</item>
+        <item>iOS</item>
+        <item>Windows</item>
+    </string-array>
+</resources>

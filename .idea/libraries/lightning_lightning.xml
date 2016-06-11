@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="lightning.lightning">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lightning/build/libs/lightning.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
