@@ -57,7 +57,7 @@ public class User {
 	}
 }
 ```
-Here the Annotation ``@LightningTable`` does all the magic, it get's all the fieds from the `class`, creates a table & `class` for it.
+Here the Annotation ``@LightningTable`` does all the magic, it get's all the fieds from the `class`, creates a table, a *DatabaseHelper* & `class` for it.
 
 **Note:** A table name must be passed inside `name` parameter of `@LightningTable`.
 
@@ -72,6 +72,9 @@ user.setUserName("admin");
 user.setPassword("1234");
 userTable.insert(user);
 ```
+
+**Note:** If one dosen't want to use the internal `DatabaseHelper` `class` provided by `LightningDB`, he/she can pass the his/her `class` in the `Constructor`: `UserTable userTable = new UserTable(<Your SQLiteOpenHelper Class>);`.
+
 #### Updation
 ```
 UserTable userTable = new UserTable(getApplicationContext());
